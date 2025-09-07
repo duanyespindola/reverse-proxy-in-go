@@ -13,7 +13,7 @@ This project aims to build a basic reverse proxy load balancer in Go, demonstrat
 
 The project will consist of two main components:
 
-1.  **Backend Servers (Echo Servers):**
+1.  **Backend Servers (Hello Servers):**
     *   Simple HTTP servers that listen on a specified port (e.g., `8081`, `8082`, `8083`).
     *   Each server will be identifiable by a number passed as a command-line argument (e.g., `--number=1`).
     *   When hit, a backend server will respond with a unique message, such as "Hello world from server N", where 'N' is its assigned number.
